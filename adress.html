@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <form action="" >
+        <h1>PAYMENT FORM</h1>
+        <hr>
+        <h2 id="ud">USER DETAILS </h2>
+        <p class="b ">name:</p>
+        <p> <input type="text" name="name" required placeholder="enter your name" class="a" id="name"></p>
+        <fieldset> 
+            <p>gender</p>
+        <p>
+            male <input type="radio" name="gender">
+            female <input type="radio" name="gender">
+        </p>
+        </fieldset>
+        <p class="b" id="c">adress:</p>
+        <p> <textarea name="address" id="" cols="200" rows="10" required placeholder="enter your adress" class="a" id="adress" ></textarea></p>
+        <p class="b">email:</p>
+        <p> <input type="email" name="email" required placeholder="enter your email" class="a" id="email"></p>
+        <p class="b">pincode:</p>
+        <p> <input type="number" name="pincode" required placeholder="enter your pin code" class="a" id="pincode"></p>
+        <hr>
+        <h2>PAYMENT DETAILS</h2>
+        <p class="b">card type</p>
+        <p>
+            <select name="card_type" id="" required class="a" id="cardtype" >
+                <option value="">-----select a card type-----</option>
+                <option value="rupay">rupay</option>
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+            </select>
+        </p>
+        <p class="b">card number:</p>
+        <p><input type="number" name="card_number" required placeholder="card number" class="a"></p>
+        <p class="b">expdate:</p>
+        <p><input type="date" name="exp_date" required class="a"></p>
+        <p class="b">cvv:</p>
+        <p><input type="password" name="cvv" required placeholder="enter cvv" class="a"></p>
+        <input type="submit" value="pay now" class="d">
+
+
+    </form>
+</body>
+</html>

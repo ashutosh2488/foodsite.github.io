@@ -1,0 +1,85 @@
+ /* nav and home background */
+#back{background: url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg) center center/cover ; 
+    width: 100vw; height: 754px;}
+  /* home section */
+  .home{
+      margin-top: 200px;
+  }
+
+
+/* nav section */
+#navs{
+    flex-direction: column;
+    align-items: center;
+}
+.nav_childs{
+    flex-direction: column;
+    align-items: center;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+ /* nav and home background */
+ #back{background: url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg) center center/cover ; 
+    width: 100vw; height: 754px;}
+  /* home section */
+  .home{
+      margin-top: 200px;
+  }
+
+
+/* nav section */
+#navs{
+    flex-direction: column;
+    align-items: center;
+}
+.nav_childs{
+    flex-direction: column;
+    align-items: center;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+/* service section */
+#services{
+    display: flex;
+    flex-direction: column;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+/* client section */
+#client{
+    display: flex;
+    flex-direction: column;
+}
+#c2{
+    display: flex;
+    flex-direction: column;
+}
+/* contact */
+#contact{
+    margin-top: 942px;
+}
+.j{
+    size: 40
+}
+#c1{
+  margin-left: 34%;
+}
+#no,#me{
+    width: 167px;
+}
+
+
+
+/* paneer dishes */
+#paneer,#chinese,#south-indian,#vegetable,#biryani,#fast-foods,#soup{display: flex; flex-wrap: wrap;
+}
+
+#ptp,#ppp,#paneer-masala-pic,#paneer-do-pyaza-pic,#matar-paneer-pic,#mushroom-paneer-pic{width: 167px;
+    height: 135px; border-radius: 50%; margin: 32px 28px -14px 130px; box-shadow: 5px 5px 10px brown;}
+

@@ -1,0 +1,301 @@
+*{margin: 0;
+    padding: 0;}
+    html{scroll-behavior: smooth;}
+    
+    /* nav and home background */
+    #back{background: url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg) center center/cover ; 
+         width: 100%; height: 311px;}
+    /* nav section */
+    
+    nav{display: flex;  position: sticky; top: 0;
+        background: rgba(0, 0, 0, 0.137);}
+    #logo{width: 61px;
+         height: 59px; 
+        margin: 8px 9px;}
+    .nav_childs{display: flex;
+               list-style: none; 
+               margin: 18px;}
+    .nc{padding: 8px 76px;  text-decoration: none;
+    color: beige;}
+    #nc5{
+         font-size: 30px;
+         color:whitesmoke;
+    }
+    #z{font-size: 20px;
+     top: 2px;
+
+    }
+    .nc:hover{color: black;
+              background-color: white;}
+    
+    /* home section */
+.home{display: flex; 
+          flex-direction: column;
+          align-items: center;
+           }
+    #hm1{font-size: 50px; color: beige; margin-top: 20px;}
+    #hm2,#hm3{font-size: 21px; color:beige;}
+    #btn{font-size: 23px;
+        padding: 3px; margin-top: 21px;
+       border-radius: 5px; background-color: brown; border: 2px solid olive;}
+    #btn:hover{border-radius: 5px;
+               color: red;
+            background-color: aqua;} */
+
+/* food section */
+#food{display: flex;
+     flex-direction: column;}
+#paneer,#chinese,#south-indian,#vegetable,#biryani,#fast-foods,#soup{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 280px 280px;}
+#ptp,#ppp,#paneer-masala-pic,#paneer-do-pyaza-pic,#matar-paneer-pic,#mushroom-paneer-pic{width: 107px;
+     height: 91px; border-radius: 50%; margin: 24px 28px 21px 130px; box-shadow: 5px 5px 10px brown;}
+.cart-icon{width: 20px; height: 20px;}
+#paneer-tikka,#palak-paneer,#paneer-masala,#paneer-do-pyaza,#matar-paneer,#mushroom-paneer,#momos,#manchurian,#chilli-paneer,#chowmein,#spring-roll,#fried-rice,#burger{background-color: antiquewhite;
+   margin: 5px 3px; box-shadow: 2px 2px 4px black;  border-radius: 5px;}
+.paneer-heading{margin-left: 73px; font-size: 35px; margin-bottom: 10px;}
+#paneer button{width: 374px;}
+#paneer button{padding-top: 5px; padding-bottom: 6px;}
+#paneer-dishes,#chinese-dishes{margin: 10px 10px 10px 10px; color: rgb(245, 143, 9);}
+#paneer button:hover,#chinese button:hover{background-color: blueviolet; color: aliceblue;}
+
+/* chinese */
+#momos-pic,#manchurian-pic,#chilli-paneer-pic,#chowmein-pic,#spring-roll-pic,#fried-rice-pic,#burger-pic{width: 107px;
+     height: 91px; border-radius: 50%; margin: 24px 28px 22px 130px; box-shadow: 5px 5px 10px brown; }
+#chinese button{width: 374px; padding-top: 5px; padding-bottom: 6px;}
+.chinese-heading{margin-left: 83px; font-size: 35px; margin-bottom: 10px;}
+/* south indian dishes */
+#masala-dosa-pic,#idli-pic,#mysore-bonda-pic,#onion-uttapam-pic,#plain-dosa-pic,#rava-uttapam-pic,#sambhar-vada-pic,#veg-kurma-pic{width: 107px;
+     height: 91px; border-radius: 50%; margin: 24px 28px 22px 130px; box-shadow: 5px 5px 10px brown;}
+#masala-dosa,#idli,#mysore-bonda,#onion-uttapam,#plain-dosa,#rava-uttapam,#sambhar-vada,#veg-kurma{background-color: antiquewhite;
+     margin: 5px 3px; box-shadow: 2px 2px 4px black;  border-radius: 5px;}
+.south-indian-heading{margin-left: 73px; font-size: 35px; margin-bottom: 10px;}
+#south-indian button{width: 374px; padding-top: 5px; padding-bottom: 6px;}
+#south-indian-dishes{margin: 10px 10px 10px 10px; color: rgb(245, 143, 9);}
+#south-indian button:hover{background-color: blueviolet; color: aliceblue;}
+/* vegetable-dishes */
+#veg-pakora,#navratan-corma,#veg-jalfrezi,#veg-biryani,#veg-curry,#veg-kolhapur,#veg-masala{background-color: antiquewhite;
+     margin: 5px 3px; box-shadow: 2px 2px 4px black;  border-radius: 5px;}
+#veg-pakora-pic,#navratan-corma-pic,#veg-jalfrezi-pic,#veg-biryani-pic,#veg-curry-pic,#veg-kolhapur-pic,#veg-masala-pic{width: 107px;
+     height: 91px; border-radius: 50%; margin: 24px 28px 22px 130px; box-shadow: 5px 5px 10px brown;}
+.vegetable-heading{margin-left: 73px; font-size: 35px; margin-bottom: 10px;}
+#vegetable button{width: 374px; padding-top: 5px; padding-bottom: 6px;}
+#vegetable-dishes{margin: 10px 10px 10px 10px; color: rgb(245, 143, 9);}
+#vegetable button:hover{background-color: blueviolet; color: aliceblue;}
+/* biryani dishes */
+#ambar-biryani,#hyderabadi-biryani,#egg-biryani,#goan-fish-biryani,#mutton-biryani,#kamrupi-biryani,#kashmiri-biryani{background-color: antiquewhite;
+     margin: 5px 3px; box-shadow: 2px 2px 4px black;  border-radius: 5px;}
+#ambar-biryani-pic,#hyderabadi-biryani-pic,#egg-biryani-pic,#goan-fish-biryani-pic,#mutton-biryani-pic,#kamrupi-biryani-pic,#kashmiri-biryani-pic{width: 107px;
+     height: 91px; border-radius: 50%; margin: 24px 28px 22px 130px; box-shadow: 5px 5px 10px brown;}
+.biryani-heading{margin-left: 73px; font-size: 35px; margin-bottom: 10px;}
+
+#biryani button{width: 374px; padding-top: 5px; padding-bottom: 6px;}
+#biryani-dishes{margin: 10px 10px 10px 10px; color: rgb(245, 143, 9);}
+#biryani button:hover{background-color: blueviolet; color: aliceblue;}
+/* fast food */
+#pizza,#sandwich,#maggy,#muffin,#taco,#milk-shake,#pancake{background-color: antiquewhite;
+     margin: 5px 3px; box-shadow: 2px 2px 4px black;  border-radius: 5px;}
+#pizza-pic,#sandwich-pic,#maggy-pic,#muffin-pic,#taco-pic,#milk-shake-pic,#pancake-pic{width: 107px;
+     height: 91px; border-radius: 50%; margin: 24px 28px 22px 130px; box-shadow: 5px 5px 10px brown;}
+.fast-food-heading{margin-left: 73px; font-size: 35px; margin-bottom: 10px;}
+#fast-foods button{width: 374px; padding-top: 5px; padding-bottom: 6px;}
+#fast-food-dishes{margin: 10px 10px 10px 10px; color: rgb(245, 143, 9);}
+#fast-foods button:hover{background-color: blueviolet; color: aliceblue;}
+/* soup dishes */
+#tomato-soup,#mushroom-soup,#spinach-soup,#sweet-corn-soup,#hot-and-sour-soup,#manchow-soup,#carrot-soup{background-color: antiquewhite;
+     margin: 5px 3px; box-shadow: 2px 2px 4px black;  border-radius: 5px;}
+#tomato-soup-pic,#mushroom-soup-pic,#spinach-soup-pic,#sweet-corn-soup-pic,#hot-and-sour-soup-pic,#manchow-soup-pic,#carrot-soup-pic{width: 107px;
+     height: 91px; border-radius: 50%; margin: 24px 28px 22px 130px; box-shadow: 5px 5px 10px brown;}
+.soup-heading{margin-left: 73px; font-size: 35px; margin-bottom: 10px;}
+#soup button{width: 374px; padding-top: 5px; padding-bottom: 6px;}
+#soup-dishes{margin: 10px 10px 10px 10px; color: rgb(245, 143, 9);}
+#soup button:hover{background-color: blueviolet; color: aliceblue;}
+.price{
+     margin-left: 155px;
+     margin-bottom: 10px;
+     font-size: 25px;
+}
+h1#chinese-dishes{
+     margin-top: 5px;
+     border-bottom: 4px solid whitesmoke;
+}
+h1#south-indian-dishes{
+     margin-top: 40px;
+     border-bottom: 4px solid whitesmoke;
+}
+h1#vegetable-dishes,h1#biryani-dishes,h1#fast-food-dishes,h1#soup-dishes{
+     margin-top: 40px;
+     border-bottom: 4px solid whitesmoke;
+}
+div#paneer{
+     margin-bottom: 44px;
+}
+/* service section */
+#services{display: flex;
+     flex-direction: column; align-items: center;}
+#container{display: flex;}
+.s{align-items: center; padding: 5px; box-shadow: 2px 2px 4px black;}
+#fi1{width: 93px;
+ height: 78px; 
+ align-items: center;
+padding: 42px 0px 29px 166px;}
+#fi2{width: 235px; height: 148px;
+ padding: 0px 0px 0px 105px;}
+#fi3{width: 188px; height: 149px ; padding: 0px 0px 0px 128px;}
+#s2,#s3,#s4{border: 3px solid brown; margin: 0px 12px;
+background-color: rgba(255, 127, 80, 0.288);}
+#s1{font-size: 46px; margin: 12px ;}
+
+
+/* clients section */
+#client{display: flex;
+     flex-direction: column;
+    align-items: flex-start;} 
+#c1{
+         display: flex;
+         align-items: center;
+    }
+#apple,#skype,#microsoft,#twitter,#insta{
+    width: 380px;
+    height: 230px;
+}
+#c2{display: flex;}
+#c2{width: 217px; height: 217px;}
+#client::before{
+    content: '';
+    position: absolute;
+    opacity:0.4;
+    background: url(https://cdn.pixabay.com/photo/2017/10/22/20/43/table-2879215_960_720.jpg) center center/cover;
+    top: 684px;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+}
+/* contact section */
+#c{text-align: center; display: flex; flex-direction: column;}
+label{font: 18px;}
+input{
+     margin: 7px;
+     padding: 2px;}
+#no{width: 562px;}
+#no2{margin-left: -63px;}
+#me{width: 570px;}
+#me2{margin-left: -16px;}
+#contact{
+     background: url(https://cdn.pixabay.com/photo/2021/01/18/12/38/coffee-beans-5928013_960_720.jpg) center center/cover;
+     margin-top: 44px;
+     
+}
+
+
+
+
+
+
+
+
+/* cart design */
+/* cart page */
+.products-container{
+     max-width: 650px;
+     justify-content: space-around;
+     margin: 0 auto;
+     margin-top: 50px;
+ }
+ .product-header{
+     display: flex;
+     width: 100%;
+     max-width: 650px;
+     justify-content: flex-start;
+     border-bottom: 4px solid lightgray;
+     margin: 0 auto;
+ }
+ .product-title{
+     width: 9%;
+     margin-top: 14px;
+ }
+ .price{
+     width: 23%;
+     display: flex;
+     align-items: center;
+     font-size: 15px;
+     padding-top: 11px;
+ }
+ 
+ .quantity{
+     width: 30%;
+     border-bottom: 1px solid lightgray;
+     display: flex;
+     align-items: center;
+ }
+ .total{
+     width: 10%;
+     border-bottom: 1px solid lightgrey;
+     display: flex;
+     align-items: center;
+ }
+ion-icon{
+     color: white;
+}
+span#z{
+     color:white;
+}
+div.main{
+     display: flex;
+     border-bottom: 4px solid whitesmoke;
+
+}
+div.main-2{
+     display: flex;
+     width: 79px;
+}
+img.image{
+     width: 104px;
+     height: 72px;
+     padding-left: 7px;
+     padding-right: 12px;
+     margin-top: 2px;
+     margin-bottom: 2px;
+}
+ion-icon.md.hydrated{
+     color: black;
+     visibility: visible;
+}
+div.price{
+     padding-right: 10px;
+}
+button.close{
+     height: 32px;
+     margin-top: 21px;
+}
+div.grand-total{
+     display: flex;
+}
+h4.gt{
+     margin-left: 212px;
+}
+h4{
+     margin-left: 241px;
+
+}
+button.next1{
+     margin-left: 260px;
+     font-size: 31px;
+     width: 174px;
+     height: 56px;
+     border-radius: 4px;
+}
+a.nexta{
+     width: 10px;
+     height: 10px;
+     margin-top: 5px;
+}
+.add{
+     margin-left: 267px;
+     margin-top: 20px;
+     
+}
+.ii{
+     width: 57px;
+     height: 61px;
+}
